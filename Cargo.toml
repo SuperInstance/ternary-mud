@@ -1,0 +1,12 @@
+[package]
+name = "ternary-mud"
+version = "0.1.0"
+edition = "2024"
+description = "Ternary algebra MUD room model with Hodge decomposition for algebraic lostness detection"
+license = "MIT"
+repository = "https://github.com/SuperInstance/ternary-mud"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+
+[dev-dependencies]
